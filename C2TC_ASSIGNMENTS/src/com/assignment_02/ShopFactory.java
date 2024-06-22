@@ -1,6 +1,7 @@
 package com.assignment_02;
 
 public abstract class ShopFactory {
+	
 	public PrimeAcc getNewPrimeAcc(int accNo, String accNm, float charges, boolean isPrime) {
 		return null;
 	}

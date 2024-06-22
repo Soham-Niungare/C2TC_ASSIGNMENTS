@@ -8,6 +8,7 @@ public class GSNormalAcc extends NormalAcc{
 	
 	@Override
 	public void bookProduct(float a) {
+		System.out.println(a);
 		// code
 	}
 
