@@ -3,7 +3,7 @@ package com.assignment_02;
 public abstract class PrimeAcc extends ShopAcc{
 
 	private final boolean isPrime;
-	private static final float deliveryCharges = 0;
+	private static final float deliveryCharges = 0.0f;
 	
 	public PrimeAcc(int accNo, String accNm, float charges, boolean isPrime) {
 		super(accNo, accNm, charges);
@@ -11,13 +11,13 @@ public abstract class PrimeAcc extends ShopAcc{
 	}
 	
 	@Override
-	public void bookProduct(float books) {
-		//code
+	public void bookProduct(float amount) {
+		System.out.println("Product booked with amount: "+amount+" No delivery charges for Prime Account.");
 	}
 
 	@Override
 	public String toString() {
-		return "PrimeAcc [isPrime=" + isPrime + "]";
+		return super.toString()+", isPrime=" + isPrime + "]";
 	}
 	
 	

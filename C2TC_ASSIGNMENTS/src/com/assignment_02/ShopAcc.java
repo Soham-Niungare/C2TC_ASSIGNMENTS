@@ -12,12 +12,10 @@ public abstract class ShopAcc {
 		this.charges = charges;
 	}
 	
-	public void bookProduct(float books) {
-		//code
-	}
+	public abstract void bookProduct(float books);
 	
-	public void items(float i) {
-		// code
+	public void items(float amount) {
+		System.out.println("Items booked with amount: "+amount);
 	}
 
 	@Override

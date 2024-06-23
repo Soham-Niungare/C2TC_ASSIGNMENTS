@@ -1,15 +1,16 @@
 package com.assignment_02;
 
 public class GSPrimeAcc extends PrimeAcc{
-	private static final float Charges = 0;
+	private static final float Charges = 0.0f;
 
 	public GSPrimeAcc(int accNo, String accNm, float charges, boolean isPrime) {
 		super(accNo, accNm, charges, isPrime);
 	}
 	
 	@Override
-	public void bookProduct(float a) {
-		// code
+	public void bookProduct(float amount) {
+		super.bookProduct(amount);
+		System.out.println("Prime Account specific booking. Ammount: "+amount);
 	}
 
 	@Override

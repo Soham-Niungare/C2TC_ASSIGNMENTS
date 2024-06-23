@@ -2,11 +2,7 @@ package com.assignment_02;
 
 public abstract class ShopFactory {
 	
-	public PrimeAcc getNewPrimeAcc(int accNo, String accNm, float charges, boolean isPrime) {
-		return null;
-	}
+	public abstract PrimeAcc getNewPrimeAcc(int accNo, String accNm, float charges, boolean isPrime);
 	
-	public NormalAcc getNewNormalAcc(int accNo, String accNm, float charges, float deliveryCharges) {
-		return null;
-	}
+	public abstract  NormalAcc getNewNormalAcc(int accNo, String accNm, float charges, float deliveryCharges);
 }

@@ -9,11 +9,11 @@ public class Tester {
 		
 		NormalAcc na = sf.getNewNormalAcc(51, "Arya", 20, 50);
 		
-		pa.bookProduct(5);
+		pa.bookProduct(100.0f);
 		
-		na.bookProduct(10);
+		na.bookProduct(200.0f);
 		
-		System.out.println(pa);
-		System.out.println(na);
+//		System.out.println(pa.toString());
+//		System.out.println(na.toString());
 	}
 }

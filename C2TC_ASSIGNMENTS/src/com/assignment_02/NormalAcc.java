@@ -9,13 +9,13 @@ public abstract class NormalAcc extends ShopAcc{
 	}
 	
 	@Override
-	public void bookProduct(float a) {
-		// code
+	public void bookProduct(float amount) {
+		System.out.println("Product Booked with amount: "+amount+ ". Delivery Charges: "+deliveryCharges);
 	}
 
 	@Override
 	public String toString() {
-		return "NormalAcc [deliveryCharges=" + deliveryCharges + "]";
+		return super.toString()+",deliveryCharges=" + deliveryCharges + "]";
 	}
 	
 	

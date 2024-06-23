@@ -7,9 +7,9 @@ public class GSNormalAcc extends NormalAcc{
 	}
 	
 	@Override
-	public void bookProduct(float a) {
-		System.out.println(a);
-		// code
+	public void bookProduct(float amount) {
+		super.bookProduct(amount);
+		System.out.println("Normal Account Specific Booking. Amount: " +amount);
 	}
 
 	@Override
