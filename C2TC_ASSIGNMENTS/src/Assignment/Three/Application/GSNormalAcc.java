@@ -1,4 +1,6 @@
-package com.assignment_02;
+package Assignment.Three.Application;
+
+import Assignment.Three.Framework.NormalAcc;
 
 public class GSNormalAcc extends NormalAcc{
 

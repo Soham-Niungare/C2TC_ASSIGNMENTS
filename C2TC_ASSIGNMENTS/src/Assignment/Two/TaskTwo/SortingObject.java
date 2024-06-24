@@ -1,4 +1,4 @@
-package TaskTwo;
+package Assignment.Two.TaskTwo;
 import java.util.*;
 
 class Employee implements Comparable<Employee> {

@@ -1,4 +1,4 @@
-package com.assignment_02;
+package Assignment.Three.Framework;
 
 public abstract class NormalAcc extends ShopAcc{
 	private final float deliveryCharges;

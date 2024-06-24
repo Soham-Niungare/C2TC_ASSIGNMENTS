@@ -1,4 +1,6 @@
-package com.assignment_02;
+package Assignment.Three.Application;
+
+import Assignment.Three.Framework.ShopFactory;
 
 public class GSShopFactory extends ShopFactory{
 	public GSPrimeAcc getNewPrimeAcc(int accNo, String accNm, float charges, boolean isPrime) {

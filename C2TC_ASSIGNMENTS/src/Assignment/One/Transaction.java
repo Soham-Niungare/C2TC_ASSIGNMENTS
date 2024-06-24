@@ -1,4 +1,4 @@
-package com.assignment_01;
+package Assignment.One;
 
 public class Transaction {
 	private final double transactionFee;

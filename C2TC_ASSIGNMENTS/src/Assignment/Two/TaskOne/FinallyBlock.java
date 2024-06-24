@@ -1,4 +1,4 @@
-package TaskOne;
+package Assignment.Two.TaskOne;
 
 public class FinallyBlock {
 	public static void main(String[] args) {
